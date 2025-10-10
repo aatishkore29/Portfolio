@@ -1,7 +1,8 @@
-import React from "react";
 import ThemeToggle from "../components/ThemeToggle";
 import { StarBackground } from "../components/Starbackground";
 import { Navbar } from "../components/Navbar";
+import { HeroSection } from "../components/HeroSection";
+import { AboutSection } from "../components/AboutSection";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
         {/* Main Content */}
         <main>
           <HeroSection />
+          <AboutSection />
         </main>
 
         {/* Footer */}
