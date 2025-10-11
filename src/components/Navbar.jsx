@@ -17,7 +17,7 @@ export const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.screenY > 10);
+      setIsScrolled(window.scrollY > 10);
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
@@ -25,7 +25,7 @@ export const Navbar = () => {
   return (
     <nav
       className={cn(
-        "fixed w-full z-40 transition-all duration-300",
+        "fixed w-full z-40 transition-all duration-300 top-0 left-0",
         isScrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-xs" : "py-5"
       )}
     >
