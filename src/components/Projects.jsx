@@ -1,4 +1,3 @@
-import tailwindcss from "@tailwindcss/vite";
 import { cn } from "../lib/utils";
 
 const projects = [
