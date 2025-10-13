@@ -1,7 +1,7 @@
 import { ArrowDown } from "lucide-react";
 import React from "react";
 
-export const HeroSection = () => {
+export const Hero = () => {
   return (
     <section
       id="hero"

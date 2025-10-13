@@ -1,7 +1,7 @@
 import { Briefcase, Code, User } from "lucide-react";
 import { cn } from "../lib/utils";
 
-export const AboutSection = () => {
+export const About = () => {
   return (
     <section id="about" className="py-4 px-4 relative">
       <div className="container mx-auto max-w-5xl">

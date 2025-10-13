@@ -6,9 +6,9 @@ const projects = [
     id: 1,
     title: "Zoomster",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, saepe.",
+      "Zoomster is a sleek and modern car rental website template built using React.js and Tailwind CSS. ",
     image: "png",
-    tags: ["React", "tailwindcss"],
+    tags: ["React", "Tailwindcss"],
     link: "#",
     github: "https://github.com/aatishkore29/CarRental",
   },
@@ -44,7 +44,7 @@ const projects = [
   },
 ];
 
-export const ProjectSection = () => {
+export const Project = () => {
   return (
     <>
       <section id="projects" className="py-24 px-24 relative">

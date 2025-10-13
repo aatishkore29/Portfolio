@@ -25,7 +25,7 @@ export const Navbar = () => {
   return (
     <nav
       className={cn(
-        "fixed w-full z-40 transition-all duration-300 top-0 left-0",
+        "fixed w-full z-40 transition-all duration-300",
         isScrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-xs" : "py-5"
       )}
     >
@@ -39,13 +39,12 @@ export const Navbar = () => {
           </span>
         </a>
 
-        {/* desktop nav */}
         <div className="hidden md:flex space-x-8">
           {navItems.map((item, key) => (
             <a
               href={item.href}
               key={key}
-              className="text-foreground/80 hover:text-primary transform-colors duration-200"
+              className="text-foreground/80 hover:text-primary transform-colors duration-300"
             >
               {item.name}
             </a>
@@ -62,7 +61,7 @@ export const Navbar = () => {
         </button>
         <div
           className={cn(
-            "fixed inset-0 bg-background-/95 backdrop-blur-md z-40 flex flex-col items-center justify-center",
+            "fixed inset-0 bg-background/95 backdroup-blur-md z-40 flex flex-col items-center justify-center",
             "transition-all duration-300 md:hidden",
             isMenuOpen
               ? "opacity-100 pointer-events-auto"
