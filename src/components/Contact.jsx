@@ -14,6 +14,7 @@ import { useState } from "react";
 export const Contact = () => {
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [form, setForm] = useState({ name: "", email: "", message: "" });
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -26,6 +27,7 @@ export const Contact = () => {
         description: "Thank you for your message. I'll get back to you soon.",
       });
       setIsSubmitting(false);
+      setForm({ name: "", email: "", message: "" });
     }, 1500);
   };
   return (
@@ -129,6 +131,10 @@ export const Contact = () => {
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
                   placeholder="Bajirao Singham"
+                  value={form.name}
+                  onChange={(e) =>
+                    setForm((f) => ({ ...f, name: e.target.value }))
+                  }
                 />
               </div>
 
@@ -144,9 +150,13 @@ export const Contact = () => {
                   type="email"
                   id="email"
                   name="email"
+                  value={form.email}
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
                   placeholder="bajirao.singham@gmail.com"
+                  onChange={(e) =>
+                    setForm((f) => ({ ...f, email: e.target.value }))
+                  }
                 />
               </div>
 
@@ -162,8 +172,12 @@ export const Contact = () => {
                   id="message"
                   name="message"
                   required
+                  value={form.message}
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary resize-none"
                   placeholder="Enter your message..."
+                  onChange={(e) =>
+                    setForm((f) => ({ ...f, message: e.target.value }))
+                  }
                 />
               </div>
 
