@@ -1,22 +1,21 @@
-import React from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home.jsx"
-import NotFound from "./pages/NotFound.jsx"
-import {Toaster} from "@/components/ui/toaster.jsx"
+import Home from "./pages/Home.jsx";
+import NotFound from "./pages/NotFound.jsx";
+import { Toaster } from "@/components/ui/toaster.jsx";
 import "./index.css";
 
 const App = () => {
   return (
     <>
-    <Toaster />
+      <Toaster />
       <BrowserRouter>
-      <Routes>
-        <Route index element={<Home />}/>
-        <Route path="*" element={<NotFound />}/>
-      </Routes>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
       </BrowserRouter>
     </>
   );
-}
+};
 
-export default App
+export default App;
