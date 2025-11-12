@@ -14,7 +14,7 @@ export const About = () => {
             <h3 className="text-2xl font-semibold">Passionate Web Developer</h3>
             <p className="text-muted-foreground">
               {" "}
-              Hey! I'm Aatish Kore, a Full Stack Web Developer who transforms
+              Hey! I'm Aatish Kore, a Front End Web Developer who transforms
               creativity into sleek, functional web experiences. I love weaving
               code into digital stories, fueled by a mix of curiosity and a good
               playlist. When I'm not crafting websites, you’ll find me lost in

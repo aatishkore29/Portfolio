@@ -21,7 +21,10 @@ export const Hero = () => {
             </span> */}
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed et laboriosam tempore eos neque odit quae magnam accusantium officia deleniti?
+            Frontend Developer skilled in ReactJS, NextJS, TailwindCSS, and
+            JavaScript, passionate about intuitive web design. I build fast,
+            scalable, and visually appealing interfaces that make technology
+            feel effortless.
           </p>
           <div className="opacity-0 animate-fade-in-delay-4 pt-4 ">
             <a href="#projects" className="cosmic-button">
