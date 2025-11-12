@@ -18,7 +18,7 @@ const skills = [
   // Tools
   { name: "Git/GitHub", level: 80, category: "tools" },
   { name: "VS Code", level: 85, category: "tools" },
-  { name: "AWS", level: 70, category: "tools" },
+  { name: "AWS", level: 60, category: "tools" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];
