@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 export const StarBackground = () => {
   const [stars, setStars] = useState([]);
-  const [meteors, setMeteors] = useState([]);
+  // const [meteors, setMeteors] = useState([]);
 
   useEffect(() => {
     generateStars();
@@ -54,7 +54,7 @@ export const StarBackground = () => {
       });
     }
 
-    setMeteors(newMeteors);
+    // setMeteors(newMeteors);
   };
   return (
     <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">

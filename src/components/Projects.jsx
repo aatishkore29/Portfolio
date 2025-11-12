@@ -1,4 +1,4 @@
-import { cn } from "../lib/utils";
+// import { cn } from "../lib/utils";
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
@@ -6,41 +6,41 @@ const projects = [
     id: 1,
     title: "Zoomster",
     description:
-      "Zoomster is a sleek and modern car rental website template built using React.js and Tailwind CSS. ",
-    image: "png",
+      "Zoomster is a sleek and modern car rental website template built using React.js and Tailwind CSS. With Tailwind’s utility-first styling and React’s component-driven architecture. It’s ideal for developers looking for a robust platform that’s simple to customize and extend.",
+    image: "/projects/Zoomster.jpeg",
     tags: ["React", "Tailwindcss"],
     link: "#",
     github: "https://github.com/aatishkore29/CarRental",
   },
   {
     id: 2,
-    title: "processing Page",
+    title: "CricHead",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, saepe.",
-    image: "png",
-    tags: ["React", "tailwindcss"],
-    link: "#",
-    github: "#",
+      "CricketHead is a real-time cricket score and match tracking web app built with React and RapidAPI. It displays live matches, upcoming fixtures, and detailed scoreboards with player-level statistics.Designed with modular components and a responsive UI, it ensures smooth performance and reliable data updates.",
+    image: "/projects/CricHead.jpeg",
+    tags: ["Rapid API", "ReactJS", "Data Normalization"],
+    link: "https://cricket-head.vercel.app/",
+    github: "https://github.com/aatishkore29/CricketHead",
   },
   {
     id: 3,
-    title: "BookIT",
+    title: "Snake Game - Arcade Game",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, saepe.",
-    image: "png",
-    tags: ["React", "tailwindcss"],
-    link: "#",
-    github: "#",
+      "An interactive browser-based Snake Game that challenges players to grow the snake while avoiding collisions. Built from scratch using JavaScript, CSS Grid, and DOM manipulation. Includes a restart system, timer, and persistent high score storage.",
+    image: "/projects/Snakegame.jpeg",
+    tags: ["HTML", "CSS", "Vanilla JavaScript"],
+    link: "https://snake-five-flame-73.vercel.app/",
+    github: "https://github.com/aatishkore29/Snake",
   },
   {
     id: 4,
-    title: "BookIT",
+    title: "GTA Landing Page",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, saepe.",
-    image: "png",
-    tags: ["React", "tailwindcss"],
-    link: "#",
-    github: "#",
+      "An interactive tribute to GTA VI — blending motion, depth, and style using React.js + GSAP. Includes an animated intro mask, character reveal, and parallax-scrolling effects. Designed for a high-impact, cinematic user experience inspired by Rockstar Games.",
+    image: "/projects/GTA.jpeg",
+    tags: ["GSAP Animations", "TailwindCSS", "ReactJS"],
+    link: "https://gta-landingpage.vercel.app/",
+    github: "https://github.com/aatishkore29/GTA-landingpage",
   },
 ];
 
